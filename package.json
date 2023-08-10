@@ -1,0 +1,12 @@
+{
+  "name": "10000_hours",
+  "version": "1.0.0",
+  "description": "A no nonsense self improvement app made to track your 10000 hours at a skill.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
