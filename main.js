@@ -6,7 +6,10 @@ app.on('ready', () => {
     mainWindow = new BrowserWindow({
         width: 500,
         height: 400,
-        frame: false, // Set frame to false to remove the top bar
+        resizable: false, maximizable: false,
+        //frame: false, 
+        autoHideMenuBar: true,
+        icon: './muscle.png',
         webPreferences: {
             nodeIntegration: true
         }
