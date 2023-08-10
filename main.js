@@ -6,6 +6,7 @@ app.on('ready', () => {
     mainWindow = new BrowserWindow({
         width: 500,
         height: 400,
+        frame: false, // Set frame to false to remove the top bar
         webPreferences: {
             nodeIntegration: true
         }
